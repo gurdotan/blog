@@ -69,6 +69,6 @@ theme: clean-blog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:gurdotan/blog.git
-  branch: gh-pages
+  repo: git@github.com:gurdotan/gurdotan.github.io.git
+  branch: master
 #  message: [message]
