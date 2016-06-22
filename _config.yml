@@ -77,3 +77,11 @@ deploy:
 # From: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:
     path: sitemap.xml
+
+# Environments:
+# Add analytics, pixels and script tags conditionally only in production
+env: development
+
+stagings:
+  production:
+    env: production
