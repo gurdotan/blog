@@ -73,3 +73,7 @@ deploy:
   repo: git@github.com:gurdotan/gurdotan.github.io.git
   branch: master
 #  message: [message]
+
+# From: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+    path: sitemap.xml
