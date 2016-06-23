@@ -1,7 +1,8 @@
 ---
-title: Tracking Your Content Marketing Funnel With Mixpanel
-date: 2016-04-01 16:37:12
-tags:
+title: Measuring Your Content Marketing Funnel With Mixpanel
+author: Gur Dotan
+date: 2016-06-23 16:37:12
+
 ---
 
 One of the things I remember that baffled me for a long time in content marketing was the fact that it was hard to understand if the content we created was actually converting users and pushing them lower down the funnel.
