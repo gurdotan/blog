@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://codegrown.io/sitemap.xml
+Sitemap: https://codegrown.io/sitemap.xml
