@@ -29,6 +29,7 @@ i18n_dir: :lang
 skip_render:
   - 'google3d18e7c669226a31.html'
   - 'robots.txt'
+  - 'js/**/*'
 
 # Writing
 new_post_name: :title.md # File name of new posts
