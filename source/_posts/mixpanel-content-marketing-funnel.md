@@ -3,6 +3,7 @@ title: Measuring Your Content Marketing Funnel With Mixpanel
 description: Learn how to track call-to-action clicks using Mixpanel and Google Tag Manager. Use the collected data to build a funnel that shows how well your content marketing efforts convert users.
 author: Gur Dotan
 date: 2016-06-23 16:37:12
+share_cover: /mixpanel-content-marketing-funnel/og-banner.jpg
 
 ---
 
