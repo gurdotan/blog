@@ -153,4 +153,4 @@ The purpose of creating this funnel is to gain a simple piece of visibility into
 * Google Tag Manager can also be set up differently with variables and custom triggers, in a way that doesn't require any Javascript code. As a hacker it's easier for me to code in exactly what I want.
 * The examples in the article use several formats for event names. This is bad practice and due to legacy naming we had in Mixpanel. Opt for short, plain English event names without any `camelCase` and `snake_case` complexities.
 * Theoretically the funnel also captures a user who has read two articles with CTAs, but only clicked the CTA in the 2nd article. If you want to examine a specific blog you'll need to modify the 1st step in the funnel to a `page_loaded` event where the `Post` property equals the title of the blog post you'd like to measure.
-* This funnel can also be built rather easily with [Amplitude](https://amplitude.com/) instead of Mixpanel.
+* This funnel can also be built rather easily with [Amplitude](https://amplitude.com/) or [KISSmetrics](https://www.kissmetrics.com) instead of Mixpanel.
