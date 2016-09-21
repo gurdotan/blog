@@ -10,6 +10,8 @@ tags:
 
 A few years ago when I started SOOMLA, my co-founder and I were debating the subject of commitment among software engineers in our team. To prove his point my co-founder presented me with a fable that goes as so:
 
+---
+
 You've just been notified of an urgent bug production.  You come up to your team of two well rounded engineers (both equally skilled technically) and explain the situation, implying that they need to stay late until the bug is solved. The reactions that follow are:
 
 Engineer #1 (we'll call her Alice):
@@ -19,6 +21,8 @@ Engineer #2 (we'll call him Bob):
 > I'm on it.  I'm not leaving till the issue is solved, even if it'll take me all night to squash that bug.
 
 Both developers get to work on the bug. Eventually both solve the bug at 8PM and go home.  Which engineer would you prefer on your team and why?
+
+---
 
 ### Short Term Answer: Commitment is King
 
