@@ -31,7 +31,7 @@ Let's break this down into action items:
 
 ## Building the Funnel
 
-We'll start from step #2 - we'll capture click events on CTAs with Google Tag Manager, and we'll report them to Mixpanel. 
+We'll start from step #2 - we'll capture click events on CTAs with Google Tag Manager, and we'll report them to Mixpanel.
 
 ### Set up Google Tag Manager
 
@@ -39,7 +39,7 @@ We'll start from step #2 - we'll capture click events on CTAs with Google Tag Ma
 2. Create a new account
 3. Setup your account
 {% asset_img gtm1.png %}
-4. Setup up a container URL.  This is effectively the domain where you'll be adding the Google Tag Manager script tag.  Select "Web". 
+4. Setup up a container URL.  This is effectively the domain where you'll be adding the Google Tag Manager script tag.  Select "Web".
 {% asset_img gtm2.png %}
 5. Copy the GTM script tag and place it in your website's master template. Alternatively, if you have static pages that aren't dynamically served or built, just paste this code in each one of them.
 {% asset_img gtm3.png %}
@@ -61,12 +61,12 @@ Finally hit "Create Tag" and give it a name, say "Mixpanel".
   if (window.mixpanel) {
     mixpanel.track('page_loaded', {source: 'blog'})
   }
-  
+
   $(function() {
     $('.cta').click(function(e) {
       e.preventDefault();
       e.stopImmediatePropagation();
-      
+
       if (window.mixpanel) {
 
         var $el     = $(e.currentTarget),
@@ -101,8 +101,8 @@ Finally hit "Create Tag" and give it a name, say "Mixpanel".
 6. Create the tag and head back to the "Overview" screen.
 7. Publish your container by hitting the "Publish" button.
 
-**Note**: Mixpanel doesn't support deleting data easily. If you'd like to test things out without littering your existing project's analytics, create a new project for experimentation purposes and use that project's API key instead. 
- 
+**Note**: Mixpanel doesn't support deleting data easily. If you'd like to test things out without littering your existing project's analytics, create a new project for experimentation purposes and use that project's API key instead.
+
 ### Update Call-To-Actions In Content
 
 We've set up the javascript logic to send events when CTAs are clicked. Now we need to adapt the links to include the necessary class name and attributes in order for them to report events properly to Mixpanel. Head over to some blog posts or articles in your website and change their CTAs (links, buttons, banners, etc.) to accommodate the `cta` class and the necessary meta-data that will be reported to Mixpanel.  Here are some examples:
@@ -141,7 +141,7 @@ Another interesting analysis is to see which type of CTA performs best. If we br
 
 The results of this funnel are controversial. With an overall funnel completion ratio of 0.05%, one would be tempted to think that the blogging effort isn't yielding any customers. With blog posts leading only 1.45% of visitors to click on CTAs, how can you expect to build your product's user base with content marketing?
 
-Industry wide statistics about such blog-post-visit-to-conversion ratios are hard to come across. One [benchmark by Moz](https://moz.com/blog/ecommerce-kpi-benchmark-study) claims that online retailers, while serving a completely different audience than the SOOMLA blog, see 1.4% conversion. Using that statistic as vague reference tells us that blog post to customer conversion is actually in the norm. 
+Industry wide statistics about such blog-post-visit-to-conversion ratios are hard to come across. One [benchmark by Moz](https://moz.com/blog/ecommerce-kpi-benchmark-study) claims that online retailers, while serving a completely different audience than the SOOMLA blog, see 1.4% conversion. Using that statistic as vague reference tells us that blog post to customer conversion is actually in the norm.
 
 However, the big picture is composed of myriad details not captured by this funnel. How did visitors reach the content? What percentage of visitors was organic i.e. search driven? What is the average session length and bounce rate? Were there other marketing efforts that contributed to the incoming traffic?  Were some of these visitors already signed up for the mailing list or the service? Answering all these questions requires more sophisticated measuring.
 

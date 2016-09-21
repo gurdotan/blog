@@ -2,9 +2,11 @@
 title: A Tale of Two Software Engineers and Commitment
 description: How much commitment would you expect from your software engineers to exhibit when urgent production issues come up? And why are software engineers afraid so much of committing?
 author: Gur Dotan
-date: 2016-09-21 16:37:12
 share_cover: /engineers-and-commitment/og-banner-engineers-and-commitment.jpg
+date: 2016-09-21 16:37:12
+tags:
 ---
+
 
 A few years ago when I started SOOMLA, my co-founder and I were debating the subject of commitment among software engineers in our team. To prove his point my co-founder presented me with a fable that goes as so:
 
